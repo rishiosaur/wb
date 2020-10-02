@@ -34,6 +34,11 @@
     "bg": {
       "type": "string",
       "required": true
+    },
+    "authors": {
+      "via": "articles",
+      "collection": "author",
+      "dominant": true
     }
   }
 }
