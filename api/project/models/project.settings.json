@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Projects",
+  "info": {
+    "name": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "categories": {
+      "collection": "category",
+      "via": "projects",
+      "dominant": true
+    },
+    "github": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "media": {
+      "type": "json"
+    },
+    "bg": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
