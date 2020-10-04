@@ -39,6 +39,10 @@
       "via": "articles",
       "collection": "author",
       "dominant": true
+    },
+    "projects": {
+      "via": "articles",
+      "collection": "project"
     }
   }
 }

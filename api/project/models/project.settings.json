@@ -39,6 +39,11 @@
     "bg": {
       "type": "string",
       "required": true
+    },
+    "articles": {
+      "collection": "article",
+      "via": "projects",
+      "dominant": true
     }
   }
 }
