@@ -44,6 +44,9 @@
       "collection": "article",
       "via": "projects",
       "dominant": true
+    },
+    "preview": {
+      "type": "string"
     }
   }
 }
