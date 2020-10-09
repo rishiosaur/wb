@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "Featured",
+  "info": {
+    "name": "Featured"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "articles": {
+      "collection": "article"
+    },
+    "projects": {
+      "collection": "project"
+    }
+  }
+}
