@@ -40,13 +40,12 @@
       "type": "string",
       "required": true
     },
-    "articles": {
-      "collection": "article",
-      "via": "projects",
-      "dominant": true
-    },
     "preview": {
       "type": "string"
+    },
+    "articles": {
+      "via": "projects",
+      "collection": "article"
     }
   }
 }
