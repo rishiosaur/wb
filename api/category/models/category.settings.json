@@ -9,21 +9,21 @@
     "timestamps": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "text",
       "required": true
-    },
-    "articles": {
-      "via": "categories",
-      "collection": "article"
     },
     "projects": {
       "via": "categories",
       "collection": "project"
+    },
+    "articles": {
+      "via": "categories",
+      "collection": "article"
     }
   }
 }
