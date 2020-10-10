@@ -9,11 +9,11 @@
     "timestamps": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "Description": {
+    "description": {
       "type": "text",
       "required": true
     },
@@ -31,18 +31,14 @@
       "via": "articles",
       "dominant": true
     },
+    "projects": {
+      "collection": "project",
+      "via": "articles",
+      "dominant": true
+    },
     "bg": {
       "type": "string",
       "required": true
-    },
-    "authors": {
-      "via": "articles",
-      "collection": "author",
-      "dominant": true
-    },
-    "projects": {
-      "via": "articles",
-      "collection": "project"
     }
   }
 }
