@@ -25,10 +25,6 @@
       "type": "email",
       "required": true
     },
-    "articles": {
-      "collection": "article",
-      "via": "authors"
-    },
     "bg": {
       "type": "string",
       "required": true
