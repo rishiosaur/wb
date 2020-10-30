@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Routes",
+  "info": {
+    "name": "Route"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "public": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
